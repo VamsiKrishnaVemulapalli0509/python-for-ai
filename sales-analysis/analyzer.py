@@ -1,6 +1,4 @@
-import pandas as pd
-import json
-import os
+from helpers import pd, os, json
 
 # Read the CSV file
 df = pd.read_csv('data/sales.csv')
